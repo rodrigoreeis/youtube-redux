@@ -1,0 +1,47 @@
+.container-video{
+  grid-area: video-list;
+}
+
+.container-video > .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list > .item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.item > .image{
+  max-width: 168px;
+  height: 94px;
+  margin-right: 8px;
+  cursor: pointer;
+
+}
+
+.item > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content > .title{
+  font-size: 14px;
+  font-weight: 500;
+  color: #0d0d0d;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 16px;
+  white-space: normal;
+  margin: 0 0 4px 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.content > .channel{
+  font-size: 13px;
+  color: #606060;
+  font-weight: 400;
+  white-space: nowrap;
+}

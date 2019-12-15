@@ -1,0 +1,12 @@
+.search-bar{
+  grid-area: search-bar;
+  background-color: white;
+}
+
+.search-bar > .input {
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+}

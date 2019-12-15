@@ -1,0 +1,22 @@
+
+.video-player{
+  grid-area: video-player;
+  margin-right: 25px;
+  width: 640px;
+  height: 360px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-player > .player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-player > .advertisement{
+  width: 100%;
+}
